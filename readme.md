@@ -70,3 +70,45 @@ from datetime import datetime
 
 
 ---
+
+## Assignment 2: Multiple Models and Relationships (20 minutes)
+
+**Goal**: Create multiple models and establish relationships between them.
+
+### Setup Instructions
+1. Create a new Python file called `assignment2.py`
+2. Use the same setup as Assignment 1
+
+### Required Tasks
+```python
+# TODO: Create these models with relationships
+
+# 1. Department model:
+# - id (primary key)
+# - name (string, required)
+# - location (string, optional)
+
+# 2. Course model:
+# - id (primary key)
+# - code (string, required, unique)
+# - title (string, required)
+# - credits (integer, required)
+# - department_id (foreign key to Department)
+# - relationship to Department
+
+# 3. Add relationship in Department:
+# - courses (one-to-many relationship to Course)
+
+# TODO: Create tables
+
+```
+
+### Success Criteria
+- [ ] Department and Course models are created
+- [ ] Foreign key relationship is established
+- [ ] Bidirectional relationship is set up
+- [ ] Sample data is added successfully
+- [ ] Query shows courses with their department information
+- [ ] No errors when running the script
+
+---
